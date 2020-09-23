@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>House Rental Management System</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="m.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">House Rental Management System</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li> 
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">View Houses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="viewhouse.php">Houses</a></li>
+            <li><a href="viewrating.php">Rating</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <section class="section-meals" id="grid-photos">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo" id="meals-1">
+                            <div class="slide-uploader" id="uploader-1">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-1" hidden="hidden" onchange="open_File(this)"/>
+                                    </div>
+                        <img src="h10.jpg" class="img img_hover" id="img-1">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-2">
+                            <div class="slide-uploader" id="uploader-2">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-2" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="h5.jpg" class="img img_hover" id="img-2">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-3">
+                            <div class="slide-uploader" id="uploader-3">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-3" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="h7.jpg" class="img img_hover" id="img-3">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-4">
+                            <div class="slide-uploader" id="uploader-4">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-4" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="h8.jpg" class="img img_hover" id="img-4">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-5">
+                            <div class="slide-uploader" id="uploader-5">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-5" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="home.jpg" class="img img_hover" id="img-5">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-6">
+                            <div class="slide-uploader" id="uploader-6">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-6" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="h8.jpg" class="img img_hover" id="img-6">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-7">
+                            <div class="slide-uploader" id="uploader-7">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-7" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="h10.jpg" class="img img_hover" id="img-7">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-8">
+                            <div class="slide-uploader" id="uploader-8">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-8" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="h9.jpg" class="img img_hover" id="img-8">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+</div>
+
+</body>
+</html>
